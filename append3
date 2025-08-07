@@ -1,0 +1,13 @@
+## Appendix A: Celestial Alignment Simulation (4400 vs. 2500 BCE)
+
+This appendix provides the full simulation data and Python code used to compare the celestial alignments of Alnitak with major Giza structures under two proposed construction epochs: 4400 ±200 BCE and 2500 ±30 BCE.
+
+### Files Included:
+- **Appendix_A.docx** – Editable Word document.
+- **Appendix_A.pdf** – Finalised print-ready version.
+- **Appendix_A.py** – Python script for alignment simulation (in root directory or 'Appendix_A.py' folder).
+- **README.md** – Overview and file guide.
+
+### 📎 Note:
+You can download the `.docx`, `.pdf`, and `.md` files listed below.  
+The `.py` script is placed outside this folder due to GitHub upload constraints.
