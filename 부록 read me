@@ -1,0 +1,53 @@
+# 📁 Appendix-A: Celestial Alignment Simulation (2500 BCE vs. 4400 BCE)
+
+This appendix provides a reproducible Python-based analysis comparing the azimuthal alignment of seven Giza structures with the heliacal rising position of Alnitak (ζ Orionis) at two different epochs: 2500 BCE and 4400 BCE.
+
+---
+
+## 📄 Files Included
+
+| Filename           | Description |
+|--------------------|-------------|
+| `Appendix-A.docx`  | Full appendix text describing the astronomical alignment methodology and results. |
+| `Appendix-A.pdf`   | PDF version of the appendix for easier viewing. |
+| `Appendix_A.py`    | Python script to compute azimuthal deviation (ΔAz) and S-values for each structure. |
+
+---
+
+## 📌 Method Summary
+
+- The script calculates:
+  - The azimuthal difference between each structure and Alnitak for both 2500 BCE and 4400 BCE.
+  - The S-value, representing 2D angular deviation in unit vector space.
+- The results are output as a comparative table.
+
+---
+
+## ▶️ How to Run
+
+1. **Requirements**:
+   - Python 3.x
+   - `numpy` and `pandas` libraries (install via `pip install numpy pandas`)
+
+2. **Execution**:
+   ```bash
+   python Appendix_A.py
+   ```
+
+3. **Output**:
+   The script prints a table showing:
+   - Each structure's azimuth.
+   - ΔAz and S-values for 2500 BCE and 4400 BCE.
+   - Example output format:
+     ```
+     Structure         Structure Azimuth (°)  Azimuth (2500 BCE)  ΔAz (2500 BCE)  S (2500 BCE)  Azimuth (4400 BCE)  ΔAz (4400 BCE)  S (4400 BCE)
+     Khufu                        90.90000               89.30000          1.60000        0.02808             90.90000          0.00000        0.00000
+     ...
+     ```
+
+---
+
+## 🧭 Interpretation
+
+- Lower S-values indicate closer alignment.
+- Structures exhibit significantly lower S-values relative to Alnitak at **4400 BCE**, supporting the hypothesis of a **pre-dynastic origin** for the celestial planning at Giza.
